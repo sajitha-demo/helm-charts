@@ -59,8 +59,7 @@ wso2:
           cpu: "1000m"
       # Environment variables for the Micro integrator deployment.
       envs:
-        - name: "environment"
-          value: "dev-env" 
+        environment: "dev-env" 
   # Configure Ingress for the Micro integrator deployment.
   ingress:
     # Hostname for the Micro Integrator.
